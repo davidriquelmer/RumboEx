@@ -25,8 +25,8 @@
     <favorites_list name="RumboEx" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="manage.py" pinned="false" current-in-tab="true">
+    <leaf>
+      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manage.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
@@ -36,6 +36,20 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -96,10 +110,10 @@
         <option value="$PROJECT_DIR$/RumboEx/templates/index.html" />
         <option value="$PROJECT_DIR$/RumboEx/templates/partials/login.html" />
         <option value="$PROJECT_DIR$/RumboEx/static/js/LoginController.js" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/RumboEx/controller/UserController.py" />
         <option value="$PROJECT_DIR$/RumboEx/__init__.py" />
         <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
       </list>
     </option>
   </component>
@@ -368,7 +382,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.38935283" />
       <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.40814197" side_tool="true" weight="0.3390558" />
-      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.591858" visible="true" weight="0.3390558" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.591858" weight="0.3390558" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Python Console" order="3" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
@@ -399,7 +413,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/RumboEx/templates/partials/login.html" />
     <entry file="file://$PROJECT_DIR$/RumboEx/model/user.py" />
     <entry file="file://$PROJECT_DIR$/RumboEx/__init__.py" />
     <entry file="file://$PROJECT_DIR$/RumboEx/templates/index.html" />
@@ -441,13 +454,6 @@
     <entry file="file://$PROJECT_DIR$/RumboEx/static/js/app.js" />
     <entry file="file://$PROJECT_DIR$/RumboEx/static/node_modules/satellizer/satellizer.js" />
     <entry file="file://$PROJECT_DIR$/RumboEx/static/js/LoginController.js" />
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RumboEx/__init__.py" />
     <entry file="file://$PROJECT_DIR$/RumboEx/templates/index.html" />
     <entry file="file://$PROJECT_DIR$/RumboEx/templates/partials/login.html" />
@@ -462,6 +468,16 @@
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
         </state>
       </provider>
     </entry>
