@@ -106,7 +106,7 @@
     /*
     This is a list of all available events you can register on a dropzone object.
 
-    You can register an event handler like this:
+    You can register an event controller like this:
 
         dropzone.on("dragEnter", function() { });
      */
@@ -225,7 +225,7 @@
       the user interface specific stuff. Overwriting them won't break the upload
       but can break the way it's displayed.
       You can overwrite them if you don't like the default behavior. If you just
-      want to add an additional event handler, register it on the dropzone object
+      want to add an additional event controller, register it on the dropzone object
       and don't overwrite those options.
        */
       drop: function(e) {

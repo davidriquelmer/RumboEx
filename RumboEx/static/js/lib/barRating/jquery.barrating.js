@@ -380,14 +380,14 @@
             };
 
             var attachHandlers = function($elements) {
-                // attach click event handler
+                // attach click event controller
                 attachClickHandler($elements);
 
                 if (self.options.hoverState) {
-                    // attach mouseenter event handler
+                    // attach mouseenter event controller
                     attachMouseEnterHandler($elements);
 
-                    // attach mouseleave event handler
+                    // attach mouseleave event controller
                     attachMouseLeaveHandler($elements);
                 }
             };

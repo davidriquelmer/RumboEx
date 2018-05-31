@@ -8059,7 +8059,7 @@ wysihtml5.views.View = Base.extend(
       this.element.innerHTML  = this.textarea.getValue(true);
       this.enable();
       
-      // Make sure our selection handler is ready
+      // Make sure our selection controller is ready
       this.selection = new wysihtml5.Selection(this.parent);
       
       // Make sure commands dispatcher is ready
@@ -8472,7 +8472,7 @@ wysihtml5.views.View = Base.extend(
     dom.observe(focusBlurElement, "focus", function() {
       that.parent.fire("focus").fire("focus:composer");
 
-      // Delay storing of state until all focus handler are fired
+      // Delay storing of state until all focus controller are fired
       // especially the one which resets the placeholder
       setTimeout(function() { state = that.getValue(); }, 0);
     });

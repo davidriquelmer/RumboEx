@@ -1,5 +1,12 @@
 from flask_rbac import UserMixin
-from RumboEx import db
+from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy.exc import SQLAlchemyError
+from RumboEx import app
+from flask_wtf import Form
+from wtforms import StringField, PasswordField, BooleanField
+from wtforms.validators import InputRequired, Length
+
+db = SQLAlchemy(app)
 
 users_roles = db.Table(
     'users_roles',
@@ -52,3 +59,15 @@ class User(db.Model, UserMixin):
         except AttributeError:
             raise NotImplementedError('No `id` attribute - override `get_id`')
 
+class UserLoginForm(Form):
+    username = StringField('Username', validators=[InputRequired(), Length(min=4, max=25)])
+    password = PasswordField('Password', validators=[InputRequired(), Length(min=4, max=200)])
+    remenber = BooleanField('remenber me')
+
+def session_commit():
+    try:
+        db.session.commit()
+    except SQLAlchemyError as e:
+        db.session.rollback()
+        reason = str(e)
+        return reason

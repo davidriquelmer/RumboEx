@@ -1,0 +1,7 @@
+Flask-RBAC
+Flask-script
+Flask_sqlalchemy
+flask_wtf
+flask_restful
+PyJWT
+flask_cors
